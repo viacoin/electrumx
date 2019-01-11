@@ -668,8 +668,8 @@ class Viacoin(AuxPowMixin, Coin):
     GENESIS_HASH = ('4e9b54001f9976049830128ec0331515'
                     'eaabe35a70970d79971da1539a400ba1')
     TX_COUNT = 113638
-    TX_COUNT_HEIGHT = 3473674
-    TX_PER_BLOCK = 30
+    TX_COUNT_HEIGHT = 5861901
+    TX_PER_BLOCK = 2
     RPC_PORT = 5222
     REORG_LIMIT = 5000
     DESERIALIZER = lib_tx.DeserializerAuxPowSegWit
