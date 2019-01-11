@@ -675,9 +675,16 @@ class Viacoin(AuxPowMixin, Coin):
     DESERIALIZER = lib_tx.DeserializerAuxPowSegWit
     PEERS = [
         'vialectrum.bitops.me s t',
+        'nl.bitops.me s t',
         'server.vialectrum.org s t',
+        'server2.vialectrum.org s t',
+        'server3.vialectrum.org s t',
+        'server4.vialectrum.org s t',
         'vialectrum.viacoin.net s t',
         'viax1.bitops.me s t',
+        'viax2.bitops.me s t',
+        'viax3.bitops.me s t',
+        'viax4.bitops.me s t',
     ]
 
     # Auxpow is redundant in SPV, truncate it from headers
